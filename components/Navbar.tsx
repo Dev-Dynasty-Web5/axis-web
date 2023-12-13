@@ -1,6 +1,7 @@
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import MobileSidebar from "./MobileSidebar";
 
 const Navbar = () => {
   return (
@@ -79,9 +80,7 @@ const Navbar = () => {
         </div>
         <Link href="#">Help</Link>
       </div>
-      <button className="ml-auto lg:hidden">
-        <Menu className="text-black" size={28} />
-      </button>
+      <MobileSidebar />
     </header>
   );
 };
