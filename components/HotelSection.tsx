@@ -49,6 +49,10 @@ const HotelSection: FC<HotelSectionProps> = ({}) => {
           imageUrl="/location-2.png"
         />
       </div>
+
+      <div className="mt-6">
+        <h1 className="px-3 text-lg">Get inspiration for your next trip</h1>
+      </div>
     </section>
   );
 };
